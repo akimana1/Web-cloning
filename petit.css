@@ -1,0 +1,500 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 22px;
+    color: black; 
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.main-section {
+    padding: 70px 12%;
+    background-color: #ffffff;
+}
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h1 {
+    font-size: 38px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.section-title h2 {
+    font-size: 18px;
+    color: #777;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.edu-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 25px;
+}
+
+.edu-item h3 {
+    color: #0056b3;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.edu-item p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.edu-item a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.edu-item a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url("https://www.mineduc.gov.rw/fileadmin/_processed_/f/c/csm_HOME_HEADER_7f03bd1b78.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero .hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+    color:black;
+}
+
+.hero .hero-content p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black
+}
+
+
+.program-section {
+    padding: 60px 12%;
+    background-color: #f9f9f9;
+}
+
+
+.program-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+.program-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 320px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.program-card h3 {
+    font-size: 22px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.program-card a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.program-card a:hover {
+    text-decoration: underline;
+}
+
+
+.updates-section {
+    padding: 70px 10%;
+    background: white;
+}
+
+.updates-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.updates-header h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.updates-header a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.updates-cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.update-card {
+    width: 340px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.update-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.update-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.update-content {
+    padding: 20px;
+}
+
+.update-content .date {
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+}
+
+.update-content h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #0056b3;
+}
+
+.update-content p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.update-content a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.update-content a:hover {
+    text-decoration: underline;
+}
+
+.explore-section {
+    padding: 80px 10%;
+    background-color: #f7f7f7; 
+}
+.explore-header {
+    background-color: #0056b3;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.explore-header h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+
+.agencies-section {
+    padding: 80px 10%;
+    background-color: #ffffff;
+}
+
+.agencies-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.agencies-header h2 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.agencies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    align-items: center;
+}
+
+.agency-card {
+    background: #f9f9f9;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.agency-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+}
+
+.agency-card img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.agency-card h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: #0056b3;
+}
+
+.agency-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+}
+
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 10%;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-contact p,
+.footer-links ul li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-contact a,
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-map iframe {
+    border: none;
+    border-radius: 6px;
+}
+
+.footer-bottom {
+    background-color: #001f40;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+:root {
+    --primary-blue: #003366;
+    --secondary-blue: #0056b3;
+    --dark-blue: #001f40;
+    --accent-yellow: #f9a825;
+}
+
+
+.footer {
+    background-color: var(--primary-blue);
+    color: white;
+    padding-top: 50px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 10%;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-contact p,
+.footer-links ul li {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--accent-yellow);
+}
+
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--accent-yellow);
+}
+
+
+.footer-map iframe {
+    border-radius: 8px;
+}
+
+
+.footer-bottom {
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .footer-container {
+        flex-direction: column;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    .footer-map iframe {
+        height: 200px;
+    }
+    .social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+}
+
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #f9a825;
+    color: black;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
